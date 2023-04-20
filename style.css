@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fe951c;
+  font-family: Arial;
+}
+
+div.Big {
+  background: #eee;
+  width: 700px;
+  padding: 40px 100px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+#usernameInp{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#conPasswordInp{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#passwordInp{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.input-label {
+  margin-bottom: 0;
+}
+
+button {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 20px;
+  background: #0d1973;
+  color: white;
+  cursor: pointer;
+}
+
+.required {
+  color: red;
+}
+
+.fake-link {
+  color: #0d1973;
+  text-decoration: none;
+}
+
+.fake-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ootput {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: bold;
+
+}
+#sign-in-div {
+  display: none;
+}
